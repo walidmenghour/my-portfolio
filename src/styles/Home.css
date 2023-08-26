@@ -1,0 +1,88 @@
+@import "fonts/fonts.css";
+.home-container {
+    font-family: MoskBold700;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    cursor: pointer;
+
+}
+
+.quote-container {
+    text-align: center;
+}
+
+.quote {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.goal {
+    font-size: 20px;
+}
+
+.highlight {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.highlight_2 {
+    color: #ffffff;
+    font-weight: normal;
+}
+
+
+.quote_style{
+    display: inline-block;
+    padding: 0 20px;
+    margin-left: 20px;
+    border-radius: 30%;
+
+}
+.style_quote_1{
+    background-color: #81e07b;
+    transform: rotate(5deg);
+
+}
+.style_quote_2{
+    transform: rotate(-5deg);
+
+    background-color: #2cb1cb;
+
+
+}
+
+.style_quote_3{
+    background-color: #b467f1;
+    transform: rotate(5deg);
+    color:white;
+
+}
+.style_quote_4{
+    transform: rotate(-5deg);
+    background-color: #eeb916;
+    color:white;
+
+}
+
+.quote_text{
+    font-size: 40px;
+}
+
+.center-container {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-image {
+    padding: 20px;
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 50px;
+    z-index: 0;
+}

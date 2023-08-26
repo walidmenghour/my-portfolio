@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #363636;
+    color: #ffffff;
+}
+
+.title_navbar, .title_navbar_logo {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.title_navbar_logo {
+    font-size: 50px;
+}
+
+.left-section {
+    font-size: 1.5rem;
+}
+
+.right-section {
+    display: flex;
+    gap: 20px;
+}
+
+.right-section a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.highlight {
+    color: white; /* Change this color to your desired highlight color */
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+@import url("fonts/fonts.css");
+
+.About_me {
+    color: #696060;
+    font-family: MoskBold700;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.left {
+    text-align: left;
+    padding: 50px;
+}
+
+.right {
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+
+img {
+    width: 80%;
+}
+
+.right img {
+    border-radius: 20px;
+    border: #2cb1cb solid 2px;
+    padding: 5px;
+}
+
+.buttons_about {
+    margin: 20px;
+    padding: 20px;
+}

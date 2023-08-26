@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Card, CardBody,Text} from "@chakra-ui/react";
+import {Box} from "@chakra-ui/react";
 import {
     Step,
     StepDescription,
@@ -13,30 +13,16 @@ import {
     useSteps,
 } from '@chakra-ui/react'
 import SectionTitle from "../components/SectionTitle";
-
+import "../styles/Education.css";
 export default function Education() {
     return (
-        <>
+        <div id={"Education"}>
             <SectionTitle title={"Education"}/>
-
-    <Card width="80%">
-        <CardBody>
-            <Text>
-
-                Welcome to the hell of doing cool thing ...
-            </Text>
-        </CardBody>
-    </Card>
-<Educations/>
-
-
-
-
-
-
-
-
-        </>)
+            <div className={"Education"}>
+                <Educations/>
+            </div>
+        </div>
+        )
 }
 
 
@@ -54,7 +40,7 @@ function Educations() {
 
 
     return (
-        <Stepper index={activeStep} orientation='vertical' height='400px'>
+        <Stepper index={activeStep} orientation='vertical' height='100%' colorScheme={"green"}>
             {steps.map((step, index) => (
                 <Step key={index}>
                     <StepIndicator>
@@ -65,7 +51,7 @@ function Educations() {
                         />
                     </StepIndicator>
 
-                    <Box flexShrink='2' width={"40%"}>
+                    <Box width={"60%"}>
                         <StepTitle>{step.title}</StepTitle>
                         <StepDescription>{step.description}</StepDescription>
                     </Box>

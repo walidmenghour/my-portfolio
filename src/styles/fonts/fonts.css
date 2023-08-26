@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'MoskBold700';
+    src: url('MoskBold700.ttf') format('truetype'); /* Replace with your font file path */
+    /* Add more font formats if necessary */
+}
+
+@font-face {
+    font-family: 'GlossySheen';
+    src: url('GlossySheen.ttf') format('truetype'); /* Replace with your font file path */
+    /* Add more font formats if necessary */
+}
+
+
+@font-face {
+    font-family: 'Madina';
+    src: url('Madina.ttf') format('truetype'); /* Replace with your font file path */
+    /* Add more font formats if necessary */
+}
+
+
