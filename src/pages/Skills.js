@@ -7,7 +7,7 @@ import "../styles/Skills.css";
 const skillSets = [
     {
         title: 'Codeing',
-        skills: ['Python','PHP', 'C/C++', 'Java', 'JavaScript','BASH', 'ReactJS', 'Laravel', 'MongoDB', 'Postgresql', 'Oracal', 'MySQL']
+        skills: ['Python','PHP', 'C/C++', 'Java', 'JavaScript','BASH', 'ReactJS', 'Laravel', 'MongoDB', 'Postgresql', 'Oracal', 'MySQL','GIT']
     },
     {
         title: 'CyberSecurity',
