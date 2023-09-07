@@ -9,14 +9,16 @@ export default function Home() {
         <motion.div id={"Home"} className="home-container" ref={constraintsRef}>
             <motion.div className="quote-container">
 
-                <motion.div  className="center-container" drag >
-                    <img src={gifImage} alt="Your GIF" drag  className="centered-image" />
+                <motion.div  className="center-container" drag whileHover={{ scale: 1.2 }}
+                             >
+                    <img src={gifImage} alt="Your GIF" className="centered-image" />
                 </motion.div >
 
                 <h1 className="quote quote_text">
-                    I  <motion.div className="quote_style style_quote_1" drag dragConstraints={constraintsRef} whileTap={{ scale: 2 }}
-                                   initial={{ scale: 0.5 }}
-                                   animate={{ rotate: 350, scale: 1 }}
+                    I  <motion.div className="quote_style style_quote_1" drag dragConstraints={constraintsRef}
+                                   whileHover={{ scale: 2 }}
+                                   style={{ rotate:120 ,x: -10,y:-5 }}
+                                   animate={{ rotate: 15, scale: 1 }}
                                    transition={{
                                        type: "spring",
                                        stiffness: 260,
@@ -25,9 +27,10 @@ export default function Home() {
                 >
                     <span className="highlight">Hack</span></motion.div>
 
-                    <motion.div className="quote_style style_quote_2" drag dragConstraints={constraintsRef} whileTap={{ scale: 2 }}
-                                initial={{ scale: 0.5 }}
-                                animate={{ rotate: 360, scale:1 }}
+                    <motion.div className="quote_style style_quote_2" drag dragConstraints={constraintsRef}
+                                whileHover={{ scale: 2 }}
+                                style={{ x: -10,y:-5 }}
+                                animate={{ rotate: -15, scale:1 }}
                                 transition={{
                                     type: "spring",
                                     stiffness: 260,
@@ -37,9 +40,10 @@ export default function Home() {
 
                         <span className="highlight"> Code</span>                        </motion.div>
 
-                    <motion.div className="quote_style style_quote_1" drag dragConstraints={constraintsRef} whileTap={{ scale: 2 }}
-                                initial={{ scale: 0.5 }}
-                                animate={{ rotate: 350, scale: 1 }}
+                    <motion.div className="quote_style style_quote_1" drag dragConstraints={constraintsRef}
+                                whileHover={{ scale: 2 }}
+                                style={{ x: -10,y:-5 }}
+                                animate={{ rotate: 15, scale: 1 }}
                                 transition={{
                                     type: "spring",
                                     stiffness: 260,
@@ -52,32 +56,41 @@ export default function Home() {
                     </motion.div>
 
                     <motion.div className="quote_style style_quote_2" drag dragConstraints={constraintsRef} whileTap={{ scale: 2 }}
-                                initial={{ scale: 0.5 }}
-                                animate={{ rotate: 350, scale: 1 }}
+                                animate={{ rotate: -15, scale: 1 }}
                                 transition={{
                                     type: "spring",
                                     stiffness: 260,
                                     damping: 8
                                 }}
+                                whileHover={{ scale: 2 }}
+                                style={{ x: -10,y:-5 }}
                     >
                         <span className="highlight"> Design</span>
                     </motion.div>
                 </h1>
                 <p className="goal quote_text">
                     my goal is to craft a world that's
-                    <motion.div className="quote_style style_quote_4" whileTap={{ scale: 2 }} >
+                    <motion.div className="quote_style style_quote_4"
+                                whileHover={{ scale: 2 }}
+                                whileTap={{ scale: 0.8 }}
+                                style={{ x: -10,y:-5 }} >
 
                         <span className="highlight_2" whileTap={{ scale: 2 }} > Safe</span>
                     </motion.div>
-                    <motion.div className="quote_style style_quote_3" whileTap={{ scale: 2 }}>
+                    <motion.div className="quote_style style_quote_3"
+                                whileHover={{ scale: 2 }}
+                                whileTap={{ scale: 0.8 }}
+                                style={{ x: -10,y:10 }}
+                    >
 
                         <span className="highlight_2" > Easy</span>
                     </motion.div>       and
-                    <motion.circle
-                        initial={{ pathLength: 0 }}
-                        animate={{ pathLength: 1 }}
-                    />
-                    <motion.div className="quote_style style_quote_4"  whileTap={{ scale: 2 }}>
+
+                    <motion.div className="quote_style style_quote_4"
+                                whileHover={{ scale: 2 }}
+                                whileTap={{ scale: 0.8 }}
+                                style={{ x: 10,y:10 }}
+                    >
 
                         <span className="highlight_2"> Beautiful</span>
                     </motion.div>

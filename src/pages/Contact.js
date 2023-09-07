@@ -6,54 +6,70 @@ import {
     Input,
     Textarea,
     Button,
-    Stack,
+    Stack, useToast, Box, VStack, HStack,
 } from '@chakra-ui/react'
 
 function Contact() {
+    const toast = useToast();
+
     return (
-        <div id={"Contact"}>
-            <h1 className="header_title">
-                Contact Us
-            </h1>
-            <div className="left form_contact">
-                <form>
-                    <FormControl isRequired>
-                        <FormLabel>Subject</FormLabel>
-                        <Input placeholder="Subject" />
-                    </FormControl>
+        <Box id={"Contact"} w={['full','md']} p={[8,15]} mt={[10,'10vh']} mx={"auto"} border={['none','3px']} borderColor={['','gray.300']} borderRadius={20}>
 
-                    <FormControl>
-                        <FormLabel>Email address</FormLabel>
-                        <Input type="email" placeholder={"example@domain.com"}/>
-                    </FormControl>
+            <VStack spacing={4} align={"flex-start"} w={"full"}>
+                <VStack spacing={1} align={["flex-start","center"]} w={"full"}>
 
-                    <FormControl isRequired>
-                        <FormLabel>Message</FormLabel>
-                        <Textarea placeholder="Message" />
-                    </FormControl>
+                    <h1 className="header_title">
+                        Contact Us
+                    </h1>
+                </VStack>
+                <FormControl isRequired>
+                    <FormLabel>Subject</FormLabel>
+                    <Input rounded={"none"} variant={"filled"} placeholder="Subject" />
+                </FormControl>
 
-                    <Stack direction="row" spacing={4} padding="20px">
-                        <Button
-                            //isLoading
-                            loadingText="Submitting"
-                            colorScheme="green"
-                            variant="solid"
-                        >
-                            Submit
-                        </Button>
-                        <Button
-                            //isLoading
-                            loadingText="Submitting"
-                            colorScheme="red"
-                            variant="outline"
-                        >
-                            Reset
-                        </Button>
-                    </Stack>
-                </form>
-            </div>
-        </div>
-    );
+                <FormControl isRequired>
+                    <FormLabel>Email address</FormLabel>
+                    <Input type="email" rounded={"none"} variant={"filled"} placeholder="email@domain.ext" />
+
+                </FormControl>
+
+                <FormControl isRequired>
+                    <FormLabel>Message</FormLabel>
+                    <Textarea placeholder="Message" rounded={"none"} variant={"filled"} />
+                </FormControl>
+
+                <HStack w={"full"} justify={"space-between"} padding="20px">
+                    <Button
+                        //isLoading
+                        loadingText="Submitting"
+                        colorScheme="green"
+                        variant="solid"
+                        onClick={() =>
+                            toast({
+                                title: 'Message Sent',
+                                description: "We successfully sent your message.",
+                                status: 'success',
+                                position: 'bottom-left',
+                                duration: 9000,
+                                isClosable: true,
+                            })
+                        }
+                    >
+                        Submit
+                    </Button>
+                    <Button
+                        //isLoading
+                        loadingText="Submitting"
+                        colorScheme="red"
+                        variant="outline"
+                    >
+                        Reset
+                    </Button>
+                </HStack>
+
+            </VStack>
+        </Box>
+);
 }
 
 export default Contact;

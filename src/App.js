@@ -11,13 +11,18 @@ import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
 
 function App() {
-  return (    <ChakraProvider><div className={"full_app"}><Header/><div className="App"> <Home/><About/><Skills/>
+  return (    <ChakraProvider>
+        <div className={"full_app"}>
+          <Header/>
+          <div className="App">
+            <Home/>
+            <About/>
+            <Skills/>
         <Experience/>
-
           <Projects/>
           <Contact/>
-
-  </div><Footer/></div></ChakraProvider>
+  </div><Footer/></div>
+  </ChakraProvider>
   );
 }
 

@@ -18,9 +18,9 @@
   font-size: 45px;
   font-weight: bolder;
   color: #eeb916;
-  text-decoration: underline;
-  //border: #2cb1cb solid 4px;
-  //border-radius: 25px;
+  text-decoration: underline 10px dotted #eeb916;
+ /*border: #2cb1cb solid 4px;
+  border-radius: 25px;*/
 }
 
 
@@ -28,29 +28,27 @@
 
 /* For WebKit-based browsers */
 ::-webkit-scrollbar {
-  width: 8px; /* Width of the scrollbar track */
+  width: 2em; /* Width of the scrollbar track */
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Color of the track */
+  background: #eeeddd; /* Color of the track */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888; /* Color of the thumb */
-  border-radius: 4px; /* Rounded corners on the thumb */
+  background:linear-gradient(transparent,#eeb916) ;
+           /*#888; Color of the thumb */
+  border-radius: 6px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Color of the thumb on hover */
-}
+  background:linear-gradient(transparent, #eeb916) ;
+  border-radius: 25px;
 
-/* For Firefox and other browsers */
-body {
-  scrollbar-width: thin; /* Width of the scrollbar track */
-  scrollbar-color: #f1f1f1 #888; /* Color of the thumb and track */
 }
 
 /* Style for the thumb on hover (if supported) */
 body::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #eeb916;
+  border-radius: 0px;
 }

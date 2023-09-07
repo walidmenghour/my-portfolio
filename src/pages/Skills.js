@@ -7,11 +7,11 @@ import "../styles/Skills.css";
 const skillSets = [
     {
         title: 'Codeing',
-        skills: ['Python/Django/Flask','PHP/Laravel', 'C/C++', 'Java', 'JavaScript', 'ReactJS', 'NextJS', 'NodeJS', 'MongoDB', 'Postgresql', 'Oracal', 'MySQL']
+        skills: ['Python','PHP', 'C/C++', 'Java', 'JavaScript','BASH', 'ReactJS', 'Laravel', 'MongoDB', 'Postgresql', 'Oracal', 'MySQL']
     },
     {
         title: 'CyberSecurity',
-        skills: ['Secure Development', 'Vulnerability Assessment', 'Penetration Testing', 'Web Application Security', 'Network Security', 'Continuous Learning']
+        skills: ['Secure Development', 'Vulnerability Assessment', 'Penetration Testing', 'Web Application Security', 'Network Security','SIEM','EDR']
     },
     {
         title: 'Networking',
@@ -19,11 +19,11 @@ const skillSets = [
     },
     {
         title: 'Desgin',
-        skills: ['User Interface', 'User Experience', 'Creativity', 'Critical Thinking']
+        skills: ['Figma','Adobe XD','User Interface']
     },
     {
         title: 'Others',
-        skills: ['Problem Solving', 'Research', '...']
+        skills: ['Problem Solving', 'Research', 'Creativity', 'Critical Thinking', 'Continuous Learning']
     }
 ];
 
