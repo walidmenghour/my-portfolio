@@ -3,13 +3,18 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #363636;
-    color: #ffffff;
+    /*background-color: #363636;*/
+    color: #594848;
+
+
+    -webkit-box-shadow: 2px 21px 29px -21px rgba(0,0,0,0.83);
+    -moz-box-shadow: 2px 21px 29px -21px rgba(0,0,0,0.83);
+    box-shadow: 2px 21px 29px -21px rgba(0,0,0,0.83);
 }
 
 .title_navbar, .title_navbar_logo {
     font-size: 20px;
-    color: #ffffff;
+    color: #363636;
 }
 
 .title_navbar_logo {
@@ -27,7 +32,7 @@
 
 .right-section a {
     text-decoration: none;
-    color: #fff;
+    color: #363636;
 }
 
 .capitalize {
@@ -35,6 +40,6 @@
 }
 
 .highlight {
-    color: white; /* Change this color to your desired highlight color */
+    color:  #eeb916; /* Change this color to your desired highlight color */
     font-weight: bold;
 }

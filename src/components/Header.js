@@ -4,13 +4,11 @@ import '../styles/Header.css';
 export default function Header() {
     let Links = [
        // {name:"Home" ,link:"home"},
-        {name:"About Me" ,link:"#About"},
-        {name:"Skills" ,link:"#Skills"},
-
-        {name:"Education" ,link:"#Education"},
-        {name:"Projects" ,link:"#Projects"},
-
-        {name:"Contact Me" ,link:"#Contact"},
+        {name:"01.About Me" ,link:"#About"},
+        {name:"02.Skills" ,link:"#Skills"},
+        {name:"03.Education" ,link:"#Education"},
+        {name:"04.Projects" ,link:"#Projects"},
+        {name:"05.Contact Me" ,link:"#Contact"},
     ]
     return (
         <nav className="navbar">
