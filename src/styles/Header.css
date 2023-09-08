@@ -40,6 +40,10 @@
 }
 
 .highlight {
-    color:  #eeb916; /* Change this color to your desired highlight color */
+    color:  white;
     font-weight: bold;
+}
+
+nav .highlight{
+    color: #eeb916;
 }
