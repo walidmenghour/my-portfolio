@@ -1,15 +1,7 @@
 import React from 'react';
 import '../styles/Header.css';
-
+import {Links} from "../data/links";
 export default function Header() {
-    let Links = [
-       // {name:"Home" ,link:"home"},
-        {name:"01.About Me" ,link:"#About"},
-        {name:"02.Skills" ,link:"#Skills"},
-        {name:"03.Education" ,link:"#Education"},
-        {name:"04.Projects" ,link:"#Projects"},
-        {name:"05.Contact Me" ,link:"#Contact"},
-    ]
     return (
         <nav className="navbar">
             <div className="left-section">

@@ -12,10 +12,10 @@ export default function Skills() {
         <div id="Skills" className="skills">
             <SectionTitle title="Skills" />
 
-            <Tabs variant="enclosed-colored" colorScheme="green" align="center" bg="#E5E4D3FF">
+            <Tabs variant="enclosed-colored" colorScheme="#81e07b" align="center" bg="#E5E4D3FF">
                 <TabList>
                     {skillSets.map((skillSet, index) => (
-                        <Tab key={index} _selected={{ color: 'white', bg: 'teal.700' }}>{skillSet.title}</Tab>
+                        <Tab key={index} bgColor={"#eeeddd"} _selected={{ color: 'white', bg: 'green' }}>{skillSet.title}</Tab>
                     ))}
                 </TabList>
                 <TabIndicator mt="-1.5px" height="5px" bg="#E5E4D3FF" borderRadius="2px" />
@@ -31,7 +31,8 @@ export default function Skills() {
                                         size="lg"
                                         variant="solid"
                                         borderRadius="full"
-                                        colorScheme="teal">
+                                        colorScheme="green"
+                                    >
                                         {skill}
                                     </Tag>
                                 ))}

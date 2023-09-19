@@ -1,16 +1,29 @@
 import React from 'react'
-import {Card, CardBody, Heading,Text,Stack,Image, CardFooter,Button} from "@chakra-ui/react";
+import {
+    Card,
+    CardBody,
+    Heading,
+    Text,
+    Stack,
+    Image,
+    CardFooter,
+    Button,
+    ModalContent,
+    ModalOverlay, Modal, ModalHeader, ModalCloseButton, ModalBody, ModalFooter, useDisclosure
+} from "@chakra-ui/react";
 import SectionTitle from "../components/SectionTitle"; // important section
 import "../styles/Projects.css"; // style
 import { projects } from "../data/projects"; // data
 export default function Projects() {
+    const { isOpen, onOpen, onClose } = useDisclosure()
 
     return (
         <div id={"Projects"}>
             <SectionTitle title={"Projects"}/>
 <div className={"Projects"}>
 
-            {projects.map((prj)=>
+            {projects.map((prj)=> <div>
+
             <Card
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
@@ -22,7 +35,7 @@ export default function Projects() {
                 <Image
                     objectFit='cover'
                     maxW={{ base: '100%', sm: '200px' }}
-                    src=''
+                    src={prj.image}
                     alt={prj.title}
                 />
 
@@ -36,12 +49,29 @@ export default function Projects() {
                     </CardBody>
 
                     <CardFooter>
-                        <Button variant='outline' colorScheme='green'>
+                        <Button onClick={onOpen} variant='outline' colorScheme='green'>
                             See More
                         </Button>
+
                     </CardFooter>
                </Stack>
+
+                <Modal onClose={onClose} isOpen={isOpen} isCentered>
+                    <ModalOverlay />
+                    <ModalContent>
+                        <ModalHeader>{prj.title}</ModalHeader>
+                        <ModalCloseButton />
+                        <ModalBody>
+                            {prj.description}
+                        </ModalBody>
+                        <ModalFooter>
+                            <Button onClick={onClose}>Close</Button>
+                        </ModalFooter>
+                    </ModalContent>
+                </Modal>
             </Card>
+
+        </div>
             )}
 </div>
 

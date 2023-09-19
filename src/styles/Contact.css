@@ -3,3 +3,17 @@
     padding: 20px;
     border-radius: 25px;
 }
+
+#Contact{
+    background-color: #E5E4D3FF;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+#Contact form{
+    border-radius: 15px;
+
+}
+#Contact form *{
+    border-radius: 25px;
+}

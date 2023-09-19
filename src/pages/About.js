@@ -16,8 +16,8 @@ export default function About() {
             <div className="container">
                 <div className="left">
                     <p className="About_me">
-                        I'm a graduate in Cybersecurity Engineering from USTHB in the year
-                        2023. My journey began when I was 12 years old, prompted by an
+                        <span className={"graduate"}>I'm a graduate in Cybersecurity Engineering from USTHB in the year
+                            2023.</span><br/>My journey began when I was 12 years old, prompted by an
                         incident where someone hacked into my father's computer and sent
                         him a screenshot of the desktop. This event ignited my interest,
                         motivating me to embark on a journey of research. I delved into

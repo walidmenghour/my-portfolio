@@ -5,7 +5,10 @@
     font-family: MoskBold700;
     font-size: 30px;
 }
-
+.graduate{
+    background-color: #81e07b;/*// 81E07B*/
+    font-weight: initial;
+}
 .container {
     display: flex;
 }

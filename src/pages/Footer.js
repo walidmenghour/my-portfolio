@@ -13,7 +13,7 @@ const Footer = () => {
                     <SocialIcon url="https://www.instagram.com/walid_menghour" />
             </HStack>
             <Box mt={4} textAlign="center">
-                Designed by <Link href="https://spaider54.com" isExternal>Spider54</Link>
+                Designed by <Link href="https://www.facebook.com/walid.menghour" isExternal>Walid MENGHOUR</Link>
             </Box>
         </Box>
     );

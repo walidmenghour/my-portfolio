@@ -6,14 +6,20 @@ import {
     Input,
     Textarea,
     Button,
-    Stack, useToast, Box, VStack, HStack,
+    useToast, Box, VStack, HStack,
 } from '@chakra-ui/react'
+
+
+
+
+
+
 
 function Contact() {
     const toast = useToast();
 
     return (
-        <Box id={"Contact"} w={['full','md']} p={[8,15]} mt={[10,'10vh']} mx={"auto"} border={['none','3px']} borderColor={['','gray.300']} borderRadius={20}>
+        <Box id={"Contact"}>
 
             <VStack spacing={4} align={"flex-start"} w={"full"}>
                 <VStack spacing={1} align={["flex-start","center"]} w={"full"}>
@@ -38,7 +44,7 @@ function Contact() {
                     <Textarea placeholder="Message" rounded={"none"} variant={"filled"} />
                 </FormControl>
 
-                <HStack w={"full"} justify={"space-between"} padding="20px">
+                <HStack w={"full"} justify={"space-around"} padding="20px">
                     <Button
                         //isLoading
                         loadingText="Submitting"
