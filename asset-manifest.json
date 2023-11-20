@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.ceca75a6.css",
-    "main.js": "/my-portfolio/static/js/main.277d3987.js",
+    "main.css": "/my-portfolio/static/css/main.9fa3732d.css",
+    "main.js": "/my-portfolio/static/js/main.c0789b0d.js",
     "static/js/787.c2fc024a.chunk.js": "/my-portfolio/static/js/787.c2fc024a.chunk.js",
-    "static/media/wp1.jpg": "/my-portfolio/static/media/wp1.70af6fb402eba483e531.jpg",
-    "static/media/wp2.jpg": "/my-portfolio/static/media/wp2.b7377fe2c7b1dff4df44.jpg",
     "static/media/terminal.gif": "/my-portfolio/static/media/terminal.f65da1736fdd59c983aa.gif",
-    "static/media/cv.pdf": "/my-portfolio/static/media/cv.950f5071705861dccef9.pdf",
+    "static/media/cv.pdf": "/my-portfolio/static/media/cv.e7bdfa85b5c14f2e0e32.pdf",
     "static/media/GlossySheen.ttf": "/my-portfolio/static/media/GlossySheen.14655a4fdec0f30d9688.ttf",
     "static/media/MoskBold700.ttf": "/my-portfolio/static/media/MoskBold700.4ae330c3d92cc3121667.ttf",
     "static/media/Madina.ttf": "/my-portfolio/static/media/Madina.4486d3c4447c8170f5bb.ttf",
     "static/media/my_image.jpg": "/my-portfolio/static/media/my_image.9b11c3a40c8972c60e1c.jpg",
     "index.html": "/my-portfolio/index.html",
-    "main.ceca75a6.css.map": "/my-portfolio/static/css/main.ceca75a6.css.map",
-    "main.277d3987.js.map": "/my-portfolio/static/js/main.277d3987.js.map",
+    "main.9fa3732d.css.map": "/my-portfolio/static/css/main.9fa3732d.css.map",
+    "main.c0789b0d.js.map": "/my-portfolio/static/js/main.c0789b0d.js.map",
     "787.c2fc024a.chunk.js.map": "/my-portfolio/static/js/787.c2fc024a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ceca75a6.css",
-    "static/js/main.277d3987.js"
+    "static/css/main.9fa3732d.css",
+    "static/js/main.c0789b0d.js"
   ]
 }
