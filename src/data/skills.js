@@ -1,11 +1,11 @@
 export const skillSets = [
     {
         title: 'Codeing',
-        skills: ['Python','PHP', 'C/C++', 'Java', 'JavaScript','BASH', 'ReactJS', 'Laravel', 'MongoDB', 'Postgresql', 'Oracal', 'MySQL','GIT']
+        skills: ['Python','PHP', 'JavaScript','BASH', 'MySQL']
     },
     {
         title: 'CyberSecurity',
-        skills: ['Secure Development', 'Vulnerability Assessment', 'Penetration Testing', 'Web Application Security','SYSTEM ADMINISTRATION','Network Security','SIEM','EDR']
+        skills: ['Vulnerability Assessment / Penetration Testing','Digital Forensics and Incident Response','Web Application Security ( Owasp / Fortiweb )','SIEM [ ELK | Splunk ]','EDR',' Firewall [ FortiGate  | pfSense ] ','Email Gateway [ Fortimail ] ','Antivirus [ kaspersky ]']
     },
     {
         title: 'Networking',

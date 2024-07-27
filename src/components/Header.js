@@ -5,10 +5,7 @@ export default function Header() {
     return (
         <nav className="navbar">
             <div className="left-section">
-                <h1 className={"title_navbar_logo"}>
-                    <span className="capitalize highlight">W</span>alid <span className="capitalize highlight">M</span>enghour
-                </h1>
-
+                <h1 className={"title_navbar_logo"}><span className="capitalize highlight">W</span>-MEN</h1>
             </div>
 
             <div className="right-section">

@@ -7,6 +7,9 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
+import Experience from "./pages/Experience";
+import Education from "./pages/Education";
+import Projects from "./pages/Projects";
 //    <Experience/>
 // <Education/>
 // <Projects/>
@@ -19,6 +22,9 @@ function App() {
             <Home/>
             <About/>
             <Skills/>
+            <Experience/>
+            <Education/>
+            <Projects/>            
           <Contact/>
   </div><Footer/></div>
   </ChakraProvider>

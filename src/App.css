@@ -16,8 +16,8 @@
   text-align: center;
   padding: 20px;
   margin: 20px;
-  font-size: 45px;
   font-weight: bolder;
+  font-size: 45px;
   color: #927307;
 
 }
@@ -27,7 +27,7 @@
 
 /* For WebKit-based browsers */
 ::-webkit-scrollbar {
-  width: 2em; /* Width of the scrollbar track */
+  width: 10px; /* Width of the scrollbar track */
 }
 
 ::-webkit-scrollbar-track {
@@ -37,12 +37,12 @@
 ::-webkit-scrollbar-thumb {
   background:linear-gradient(transparent,#eeb916) ;
            /*#888; Color of the thumb */
-  border-radius: 6px;
+  border-radius: 1px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background:linear-gradient(transparent, #eeb916) ;
-  border-radius: 25px;
+  border-radius: 1px;
 
 }
 

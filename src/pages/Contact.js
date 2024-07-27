@@ -9,12 +9,6 @@ import {
     useToast, Box, VStack, HStack,
 } from '@chakra-ui/react'
 
-
-
-
-
-
-
 function Contact() {
     const toast = useToast();
 
@@ -30,18 +24,18 @@ function Contact() {
                 </VStack>
                 <FormControl isRequired>
                     <FormLabel>Subject</FormLabel>
-                    <Input rounded={"none"} variant={"filled"} placeholder="Subject" />
+                    <Input rounded={"none"} variant={"filled"} placeholder="New Opportunity" />
                 </FormControl>
 
                 <FormControl isRequired>
                     <FormLabel>Email address</FormLabel>
-                    <Input type="email" rounded={"none"} variant={"filled"} placeholder="email@domain.ext" />
+                    <Input type="email" rounded={"none"} variant={"filled"} placeholder="m.walid@gmail.com" />
 
                 </FormControl>
 
                 <FormControl isRequired>
                     <FormLabel>Message</FormLabel>
-                    <Textarea placeholder="Message" rounded={"none"} variant={"filled"} />
+                    <Textarea placeholder="I want to suggest a new opportunity in my company ..." rounded="none" variant="filled" />
                 </FormControl>
 
                 <HStack w={"full"} justify={"space-around"} padding="20px">

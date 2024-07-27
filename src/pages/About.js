@@ -16,14 +16,7 @@ export default function About() {
             <div className="container">
                 <div className="left">
                     <p className="About_me">
-                        <span className={"graduate"}>I'm a graduate in Cybersecurity Engineering from USTHB in the year
-                            2023.</span><br/>My journey began when I was 12 years old, prompted by an
-                        incident where someone hacked into my father's computer and sent
-                        him a screenshot of the desktop. This event ignited my interest,
-                        motivating me to embark on a journey of research. I delved into
-                        learning programming languages such as Python, PHP, and others,
-                        while also acquiring knowledge in networking. Additionally, I
-                        explored tools like BackTrack .
+                    I am a Cyber Security Engineer at Air Algerie, specializing in digital forensics and incident response. I have a strong passion for cybersecurity and continually seek out new challenges.                        
                     </p>
                     <div className="buttons_about">
                         <Stack direction='row' spacing={6}>

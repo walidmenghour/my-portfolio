@@ -2,48 +2,63 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    /*background-color: #363636;*/
+    padding: 2px 70px;
     color: #594848;
-
 
     -webkit-box-shadow: 2px 21px 29px -21px rgba(0,0,0,0.83);
     -moz-box-shadow: 2px 21px 29px -21px rgba(0,0,0,0.83);
     box-shadow: 2px 21px 29px -21px rgba(0,0,0,0.83);
+
 }
 
 .title_navbar, .title_navbar_logo {
+
     font-size: 20px;
     color: #363636;
+
 }
 
 .title_navbar_logo {
+
     font-size: 50px;
+
 }
 
 .left-section {
+
     font-size: 1.5rem;
+
 }
 
 .right-section {
+
     display: flex;
     gap: 20px;
+
 }
 
 .right-section a {
+    
     text-decoration: none;
     color: #363636;
+
 }
 
 .capitalize {
+
     text-transform: capitalize;
+
 }
 
 .highlight {
+
     color:  white;
     font-weight: bold;
+
 }
 
 nav .highlight{
+ 
     color: #eeb916;
+
 }
