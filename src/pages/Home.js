@@ -4,13 +4,11 @@ import "./../styles/Home.css";
 import gifImage from "../images/terminal.gif";
 export default function Home() {
     const constraintsRef = useRef(null);
-
     return (
         <motion.div id={"Home"} className="home-container" ref={constraintsRef}>
             <motion.div className="quote-container">
 
-                <motion.div  className="center-container" drag whileHover={{ scale: 1.2 }}
-                             >
+                <motion.div  className="center-container" drag whileHover={{ scale: 1.2 }}>
                     <img src={gifImage} alt="Your GIF" className="centered-image" />
                 </motion.div >
 
@@ -61,10 +59,7 @@ export default function Home() {
                                     type: "spring",
                                     stiffness: 260,
                                     damping: 8
-                                }}
-                                whileHover={{ scale: 2 }}
-                                style={{ x: -10,y:-5 }}
-                    >
+                                }} whileHover={{ scale: 2 }} style={{ x: -10,y:-5 }}>
                         <span className="highlight"> Design</span>
                     </motion.div>
                 </h1>
@@ -74,24 +69,16 @@ export default function Home() {
                                 whileHover={{ scale: 2 }}
                                 whileTap={{ scale: 0.8 }}
                                 style={{ x: -10,y:-5 }} >
-
                         <span className="highlight_2" whileTap={{ scale: 2 }} > Safe</span>
                     </motion.div>
                     <motion.div className="quote_style style_quote_3"
                                 whileHover={{ scale: 2 }}
                                 whileTap={{ scale: 0.8 }}
-                                style={{ x: -10,y:10 }}
-                    >
-
-                        <span className="highlight_2" > Easy</span>
-                    </motion.div>       and
-
-                    <motion.div className="quote_style style_quote_4"
+                                style={{ x: -10,y:10 }}><span className="highlight_2" > Easy</span>
+                    </motion.div> and <motion.div className="quote_style style_quote_4"
                                 whileHover={{ scale: 2 }}
                                 whileTap={{ scale: 0.8 }}
-                                style={{ x: 10,y:10 }}
-                    >
-
+                                style={{ x: 10,y:10 }}>
                         <span className="highlight_2"> Beautiful</span>
                     </motion.div>
                 </p>

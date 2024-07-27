@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button, Stack, useToast} from "@chakra-ui/react";
+import {Button, Stack} from "@chakra-ui/react";
 import "../App.css";
 import "../styles/About.css";
 import my_image from "../images/my_image.jpg";
@@ -8,7 +8,7 @@ import SectionTitle from "../components/SectionTitle";
 
 import resume from "../../src/data/cv.pdf";
 export default function About() {
-    const toast = useToast();
+   // const toast = useToast();
 
     return (
         <div id="About" className="About">
@@ -27,7 +27,7 @@ export default function About() {
                     </p>
                     <div className="buttons_about">
                         <Stack direction='row' spacing={6}>
-                            <a href={resume} target={"_blank"} download={"resume"}>
+                            <a href={resume} target={"_blank"} download={"resume"} rel='noreferrer'>
                                 <Button leftIcon={<DownloadIcon />} colorScheme='teal' variant='solid' downlond>
                                     RESUME
                                 </Button>
